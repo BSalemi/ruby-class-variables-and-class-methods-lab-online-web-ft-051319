@@ -45,11 +45,11 @@ class Song
     @@artists.each do |artist|
       if artist_hash[artist]
         artist_hash[artist] += 1
-      else 
+      else
         artist_hash[artist] = 1
-      end 
-    end 
+      end
+    end
     artist_hash
-  end 
+  end
 
 end
